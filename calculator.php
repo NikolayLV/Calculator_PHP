@@ -101,10 +101,10 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Calculator</title>
+    <title>Calculator</title>
 </head>
 <body>
-<h3>My Calculator</h3>
+<h3>Calculator</h3>
 <div style="border: 1px solid #ccc; border-radius: 3px; padding: 5px; display: inline-block">
     <form method="post">
         <input type="hidden" name="input" value='<?php echo json_encode($input);?>'/>
